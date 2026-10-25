@@ -1,0 +1,32 @@
+# Dune build directory
+_build/
+
+# Dune lock directories (if using package management)
+_dune.lock/
+dune.lock/
+
+# OCaml / Merlin / Editor files
+*.install
+*.byte
+*.native
+*.cmi
+*.cmo
+*.cmt
+*.cmti
+*.cmx
+*.o
+*.a
+*.so
+*.dll
+*.opt
+*.out
+*.swp
+*.swo
+*~
+.merlin
+.ocamlformat-ignore
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
